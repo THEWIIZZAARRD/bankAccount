@@ -38,7 +38,7 @@ void less_Than_10(double digit){
   int getCents = digit - getDigitAsInt;
   char holdWord[150];
 
-  switch(digit){
+  switch(getDigitAsInt){
     case 0: 
       holdWord = "Zero Dollar";
       break;
