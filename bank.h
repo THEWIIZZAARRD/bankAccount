@@ -6,14 +6,14 @@ void begin();
 
 void findRange(double digit);
 
-void lessThan10();
+void less_Than_10(double);
 
-void less_Than_100();
+void less_Than_100(double);
 
-void less_Than_One_THousand();
+void less_Than_One_THousand(double);
 
-void less_Than_Ten_Thousand();
+void less_Than_Ten_Thousand(double);
 
-void less_Than_One_Hundred_Thousand();
+void less_Than_One_Hundred_Thousand(double);
 
 #endif
