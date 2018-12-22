@@ -6,7 +6,7 @@ void begin(){
   double input = 0;
   printf("Enter amount: ");
 
-  scanf("%f", input);
+  //scanf("%f", input);
 
   findRange(input);
 }
@@ -52,64 +52,82 @@ void less_Than_10(double digit){
     case 1: 
     {
       char one[5] ="One ";
+      strcpy(holdWord, one);
+      strcat(holdWord, dollar);
       break;
     }
     
     case 2: 
     {
       char two[5] = "Two ";
+      strcpy(holdWord, two);
+      strcat(holdWord, dollar);
       break; 
     }
 
     case 3: 
     {
       char three[6] = "Three ";
+      strcpy(holdWord, three);
+      strcat(holdWord, dollar);
       break;
     }
 
     case 4: 
     {
       char four[6] = "Four ";
+      strcpy(holdWord, four);
+      strcat(holdWord, dollar);
       break;
     }
     
     case 5: 
     {
       char five[6] ="Five ";
+      strcpy(holdWord, five);
+      strcat(holdWord, dollar);
       break;
     }
 
     case 6: 
     {
       char six[6] = "Six ";
+      strcpy(holdWord, six);
+      strcat(holdWord, dollar);
       break;
     }
     
     case 7: 
     {
       char seven[7] = "Seven ";
+      strcpy(holdWord, seven);
+      strcat(holdWord, dollar);
       break;
     }
     
     case 8:
     {
       char eight[8] = "Eight ";
+      strcpy(holdWord, eight);
+      strcat(holdWord, dollar);
       break;
     }
 
     case 9:
     {
       char nine[6] = "Nine ";
+      strcpy(holdWord, nine);
+      strcat(holdWord, dollar);
       break;
     }
   }
 
   char val = holdWord[0];
   int getLength = strlen(holdWord);
+
   printf("\n");
 
-  
-    for(int i=0; i<getLength; i++){
+    for(int i=0; i<=getLength; i++){
       printf("%c", holdWord[i]);
     }
   
