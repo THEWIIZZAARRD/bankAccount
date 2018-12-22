@@ -105,13 +105,14 @@ void less_Than_10(double digit){
   }
 
   char val = holdWord[0];
+  int getLength = str(holdWord);
   printf("\n");
 
-  while(val != '\0'){
-    for(int i=0; i<15; i++){
+  
+    for(int i=0; i<getLength; i++){
       printf("%c", holdWord[i]);
     }
-  }
+  
 
 
 }
