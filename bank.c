@@ -37,61 +37,55 @@ void less_Than_10(double digit){
   int getDigitAsInt = (int) digit;
   int getCents = digit - getDigitAsInt;
   char holdWord[150];
-  char dollar[5] = "Dollar";
+  char dollar[6] = "Dollar";
 
   switch(getDigitAsInt){
     case 0: 
       char zero[5] = "Zero ";
-      for(int i=0; i<=10; i++){
-        if(i < 6){
-          holdWord[i] = zero[i]
-        }
-        else{
-          holdWord[i] = dollar[i];
-        }
-      }
+      strcpy(holdWord, zero);
+      strcat(holdWord, dollar);
       break;
 
     case 1: 
-      holdWord = "One Dollar ";
+      char one[5] ="One ";
       break;
     
     case 2: 
-      holdWord = "Two Dollars ";
+      char two[5] = "Two ";
       break; 
 
     case 3: 
-      holdWord = "Three Dollars";
+      char three[6] = "Three ";
       break;
 
     case 4: 
-      holdWord = "Four Dollars";
+      char four[6] = "Four ";
       break;
     
     case 5: 
-      holdWord = "Five Dollars";
+      char five[6] ="Five ";
       break;
 
     case 6: 
-      holdWord = "Six Dollars";
+      char six[6] = "Six ";
       break;
     
     case 7: 
-      holdWord = "Seven Dollars";
+      char seven[7] = "Seven ";
       break;
     
     case 8:
-      holdWord = "Eight Dollars";
+      char eight[8] = "Eight ";
       break;
 
     case 9:
-      holdWord = "Nine Dollars";
+      char nine[6] = "Nine ";
       break;
   }
 
   char val = holdWord[0];
   printf("\n");
-  
+
   while(val != '\0'){
     for(int i=0; i<15; i++){
       printf("%c", holdWord[i]);
