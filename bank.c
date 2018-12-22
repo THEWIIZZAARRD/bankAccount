@@ -42,46 +42,64 @@ void less_Than_10(double digit){
 
   switch(getDigitAsInt){
     case 0: 
+    {
       char zero[5] = "Zero ";
       strcpy(holdWord, zero);
       strcat(holdWord, dollar);
       break;
+    }
 
     case 1: 
       char one[5] ="One ";
       break;
     
     case 2: 
+    {
       char two[5] = "Two ";
       break; 
+    }
 
     case 3: 
+    {
       char three[6] = "Three ";
       break;
+    }
 
     case 4: 
+    {
       char four[6] = "Four ";
       break;
+    }
     
     case 5: 
+    {
       char five[6] ="Five ";
       break;
+    }
 
     case 6: 
+    {
       char six[6] = "Six ";
       break;
+    }
     
     case 7: 
+    {
       char seven[7] = "Seven ";
       break;
+    }
     
     case 8:
+    {
       char eight[8] = "Eight ";
       break;
+    }
 
     case 9:
+    {
       char nine[6] = "Nine ";
       break;
+    }
   }
 
   char val = holdWord[0];
