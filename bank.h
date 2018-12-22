@@ -7,4 +7,4 @@ void begin();
 void convert(int);
 // prints out the digit in words
 
-#ednif
+#endif

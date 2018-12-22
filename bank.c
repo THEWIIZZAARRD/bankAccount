@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "bank.h"
 
 void begin(){
   int input;
