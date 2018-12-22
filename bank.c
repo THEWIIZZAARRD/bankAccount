@@ -50,8 +50,10 @@ void less_Than_10(double digit){
     }
 
     case 1: 
+    {
       char one[5] ="One ";
       break;
+    }
     
     case 2: 
     {
