@@ -2,11 +2,11 @@
 #include "bank.h"
 
 void begin(){
-  int input;
+  double input;
   
   printf("Enter amount: %d", input);
   
-  findRange(digit);
+  findRange(input);
 }
 
 void findRange(double digit){
