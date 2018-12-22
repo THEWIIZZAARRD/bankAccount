@@ -4,7 +4,16 @@
 void begin(); 
 // Begins the program
 
-void convert(int);
-// prints out the digit in words
+void findRange(double digit);
+
+void lessThan10();
+
+void less_Than_100();
+
+void less_Than_One_THousand();
+
+void less_Than_Ten_Thousand();
+
+void less_Than_One_Hundred_Thousand();
 
 #endif

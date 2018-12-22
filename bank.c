@@ -8,6 +8,11 @@ void begin(){
   
 }
 
-void convert(int digit){
-  
+void findRange(int digit){
+
+  switch(digit){
+    case A
+  }
 }
+// This functions will find the amount the number being inserted is
+
