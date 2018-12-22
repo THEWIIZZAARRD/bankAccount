@@ -37,10 +37,19 @@ void less_Than_10(double digit){
   int getDigitAsInt = (int) digit;
   int getCents = digit - getDigitAsInt;
   char holdWord[150];
+  char dollar = "Dollar";
 
   switch(getDigitAsInt){
     case 0: 
-      holdWord = "Zero Dollar";
+      char zero = "Zero ";
+      for(int i=0; i<=10; i++){
+        if(i < 6){
+          holdWord[i] = zero[i];
+        }
+        else{
+          holdWord[i] = dollar[i];
+        }
+      }
       break;
 
     case 1: 
