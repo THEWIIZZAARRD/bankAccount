@@ -122,7 +122,6 @@ void less_Than_10(double digit){
     }
   }
 
-  char val = holdWord[0];
   int getLength = strlen(holdWord);
 
   printf("\n");
