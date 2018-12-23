@@ -6,3 +6,6 @@ main.o: main.c bank.h
 
 bank.o: bank.c bank.h
 	gcc -c -std=c99 -Wall bank.c
+
+clean:
+	rm -f main main.o bank.o
