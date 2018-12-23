@@ -1,9 +1,6 @@
 #ifndef BANK_H
 #define BANK_H
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 void begin(); 
 // Begins the program
