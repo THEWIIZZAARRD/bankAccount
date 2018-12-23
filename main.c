@@ -4,7 +4,11 @@
 #include "bank.h"
 
 int main(){
+    int input;
     printf("Enter amount: ");
-    begin(); //Begins the program 
+    scanf("%d", input);
+
+    printf("The user inputed %d", input);
+    //begin(); //Begins the program 
     return (0);
 }
