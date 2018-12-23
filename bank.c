@@ -4,8 +4,10 @@
 
 void begin(){
 
-  double input = 0;
-  scanf("%d", input);
+  double input;
+  printf("Please enter a number: ");
+
+  scanf("%d", &input);
 
   findRange(input);
 }
