@@ -3,9 +3,9 @@
 #include "bank.h"
 
 void begin(){
-  double input = 0;
   printf("Enter amount: ");
-
+  
+  double input;
   scanf("%f", input);
 
   findRange(input);
