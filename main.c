@@ -5,6 +5,7 @@
 
 int main(void){
 
+    printf("Enter amount: ");
     begin(); //Begins the program 
     return (0);
 }
