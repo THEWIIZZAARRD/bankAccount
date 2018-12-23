@@ -6,7 +6,7 @@ void begin(){
   printf("Enter amount: ");
 
   double input;
-  //scanf("%f", input);
+  scanf("%g", input);
 
   findRange(input);
 }
