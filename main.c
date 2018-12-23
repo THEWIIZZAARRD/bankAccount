@@ -5,5 +5,5 @@
 int main(){
     
     begin(); //Begins the program 
-    return (0);
+    return 0;
 }

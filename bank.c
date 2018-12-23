@@ -7,7 +7,7 @@ void begin(){
   double input;
   printf("Please enter a number: ");
 
-  scanf("%d", &input);
+  scanf("%g", &input);
 
   findRange(input);
 }
@@ -16,6 +16,7 @@ void findRange(double digit){
 
   if(digit < 10){
     less_Than_10(digit);
+    break;
   }
   else if(digit < 100){
 
