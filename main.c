@@ -3,7 +3,7 @@
 #include <string.h>
 #include "bank.h"
 
-int main(void){
+int main(){
 
     printf("Enter amount: ");
     begin(); //Begins the program 
