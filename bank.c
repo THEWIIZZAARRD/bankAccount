@@ -4,8 +4,8 @@
 
 void begin(){
 
-  double input;
-  scanf("%g", input);
+  double input = 0;
+  scanf("%d", input);
 
   findRange(input);
 }
